@@ -17,28 +17,28 @@ function Footer(){
                 <div className={style["footer-info"]}>
                     <div>
                         <h3>{config.fullName}</h3>
-                        <p>A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product</p>
+                        <p>A Software Engineer with experience in AI, Web Development.</p>
                     </div>
                     <div className={style.social}>
                         <h3>Social</h3>
                         <div className="">
-                            <a className={style.git} target="_blank" href='https://github.com/IbrahimHiarea' >
+                            <a className={style.git} target="_blank" href={config.links.github} >
                                 <AiFillGithub size="30px" color='white' />
                             </a>
-                            <a className={style.linkedin} target="_blank" href='https://www.linkedin.com/in/ibrahim-hiarea/' >
+                            <a className={style.linkedin} target="_blank" href={config.links.linkedin}>
                                 <AiFillLinkedin size="30px" color='white' />
                             </a>
-                            <a className={style.gmail} target="_blank" href="mailto:ibrahimhiarea2@gmail.com?subject=SendMail&body=Description" >
+                            <a className={style.gmail} target="_blank" href={config.email} >
                                 <BiLogoGmail size="30px" color='white' />
                             </a>
-                            <a className={style.facebook} target="_blank" href='https://www.facebook.com/ibrahim.hiarea' >
+                            <a className={style.facebook} target="_blank" href={config.links.facebook} >
                                 <BsFacebook size="30px" color='white' />
                             </a>
                         </div>
                     </div>
                 </div>
                 <div className={style["copy-right"]}>
-                    © Copyright 2023. Made by <span>{config.userName}</span>
+                    © Copyright 2025. Made by <span>{config.userName}</span>
                 </div>
             </div>
         </div>

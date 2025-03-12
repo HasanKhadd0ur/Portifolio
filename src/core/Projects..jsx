@@ -19,7 +19,7 @@ function Projects (){
                     ProjectsList.map((project, index) => {
                         return <div key={`project${index}`} className={style.project}>
                             <div className={style["project-image"]}>
-                                <img src={`${project.imageURL}`}   alt="Project Image" />
+                                <img src={project.image}  alt="Project Image"  style={{ width: "600px", height: "350px"}} />
                             </div>
                             <div className={style["project-info"]}>
                                 <h3>{project.projectName}</h3>

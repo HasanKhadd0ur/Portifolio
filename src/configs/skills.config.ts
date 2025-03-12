@@ -1,7 +1,7 @@
 
 import { FaReact } from "react-icons/fa";
 import { AiFillHtml5 } from "react-icons/ai";
-import { BiLogoCss3, BiLogoJavascript, BiLogoRedux, BiLogoJava } from "react-icons/bi";
+import { BiLogoCss3, BiLogoJavascript, BiLogoRedux,BiLogOutCircle, BiLogoJava } from "react-icons/bi";
 import { BsGit, BsPuzzle } from "react-icons/bs";
 import { TbBrandCpp } from "react-icons/tb";
 import { FaMobileAlt } from "react-icons/fa";
@@ -41,24 +41,20 @@ export const SkillsList  : SkillItem[]  = [
 		cssName: "react"
 	},
 	{
-		name: 'Redux ToolKit',
+		name: 'Jenkins',
 		icon: BiLogoRedux,
-		cssName: "redux"
+		cssName: "jenkins"
 	},
 	{
-		name: 'Redux Recoil',
-		icon: SiRecoil,
-		cssName: "recoil"
-	},
-	{
-		name: 'React Query',
-		icon: SiReactquery,
-		cssName: "react-query"
-	},
-	{
-		name: 'RTK Query',
+		name: 'ASP.Net',
 		icon: BiLogoRedux,
-		cssName: "redux"
+		cssName: "asp .net"
+	},
+	
+	{
+		name: 'C#',
+		icon: BiLogoRedux,
+		cssName: "csharp"
 	},
 	{
 		name: 'Responsive Design',
@@ -69,6 +65,11 @@ export const SkillsList  : SkillItem[]  = [
 		name: 'Git',
 		icon: BsGit,
 		cssName: "git"
+	},
+	{
+		name: 'CI / CD',
+		icon: BiLogOutCircle,
+		cssName: "ci cd"
 	},
 	{
 		name: 'java',

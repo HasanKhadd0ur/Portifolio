@@ -15,8 +15,8 @@ function Home(){
     return(                
         <div id='Home' className={style.home}>
             <div className={style["home-content"]}>
-                <h1>HEY, I'M{config.fullName}</h1>
-                <p>A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product</p>
+                <h1>HEY, I'M {config.fullName}</h1>
+                <p>A Software Engineer with two year of experience in AI, Web Development and Software Architecture.</p>
                 <a
                     href={cv}
                     download="cv-PDF-document"
@@ -37,16 +37,16 @@ function Home(){
                 </div>
             </div>
             <div className={style["contact-nav"]}>
-                <a className={style.github} target="_blank" href='https://github.com/IbrahimHiarea' >
+                <a className={style.github} target="_blank" href={config.links.github} >
                     <AiFillGithub size="30px" color='black' />
                 </a>
-                <a className={style.linkedin} target="_blank" href='https://www.linkedin.com/in/ibrahim-hiarea/' >
+                <a className={style.linkedin} target="_blank" href={config.links.linkedin} >
                     <AiFillLinkedin size="30px" color='black' />
                 </a>
-                <a className={style.gmail} target="_blank" href="mailto:ibrahimhiarea2@gmail.com?subject=SendMail&body=Description" >
+                <a className={style.gmail} target="_blank" href={`mailto:${config.email}?subject=SendMail&body=Description`} >
                     <BiLogoGmail size="30px" color='black' />
                 </a>
-                <a className={style.facebook} target="_blank" href='https://www.facebook.com/ibrahim.hiarea' >
+                <a className={style.facebook} target="_blank" href={config.links.facebook} >
                     <BsFacebook size="30px" color='black' />
                 </a>
             </div>
