@@ -16,21 +16,6 @@ export interface SkillItem  {
 
 export const SkillsList  : SkillItem[]  = [
 	{
-		name: 'HTML 5',
-		icon: AiFillHtml5,
-		cssName: "html"
-	},
-	{
-		name: 'CSS 3',
-		icon: BiLogoCss3,
-		cssName: "css"
-	},
-	{
-		name: 'Java Script',
-		icon: BiLogoJavascript,
-		cssName: "java-script"
-	},
-	{
 		name: "TypeScript",
 		icon: SiTypescript,
 		cssName: "type-script"
@@ -50,16 +35,20 @@ export const SkillsList  : SkillItem[]  = [
 		icon: BiLogoRedux,
 		cssName: "asp .net"
 	},
-	
+	{
+		name: 'Angular',
+		icon: BiLogoRedux,
+		cssName: "asp .net"
+	},
+	{
+		name: 'Java',
+		icon: BiLogoRedux,
+		cssName: "asp .net"
+	},
 	{
 		name: 'C#',
 		icon: BiLogoRedux,
 		cssName: "csharp"
-	},
-	{
-		name: 'Responsive Design',
-		icon: FaMobileAlt,
-		cssName: "responsive"
 	},
 	{
 		name: 'Git',
@@ -72,18 +61,9 @@ export const SkillsList  : SkillItem[]  = [
 		cssName: "ci cd"
 	},
 	{
-		name: 'java',
-		icon: BiLogoJava,
-		cssName: "java"
-	},
-	{
 		name: 'C++',
 		icon: TbBrandCpp,
 		cssName: "cpp"
 	},
-	{
-		name: 'Problem Solving',
-		icon: BsPuzzle,
-		cssName: "problem-solving"
-	}
+	
 ];

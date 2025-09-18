@@ -1,4 +1,12 @@
-import PR1 from '../assets/images/PR1.png'
+import EventDetection from '../assets/images/event-detection.png';
+import SAS from '../assets/images/sas.jpg';
+import HIASTProjects from '../assets/images/hiast-projects.png';
+import UniFile from '../assets/images/unifile.png';
+import CASolution from '../assets/images/casolution.png';
+import eMedic from '../assets/images/emedic.jpg';
+import MentalHealth from '../assets/images/mental-health.jpg'; 
+import MediatRaptor from '../assets/images/MediatRaptor.png'; 
+
 
 export interface ProtfolioItem {
     projectName : string ,
@@ -8,47 +16,61 @@ export interface ProtfolioItem {
     link :string
 }
 
-export const ProjectsList : ProtfolioItem[] = [
-	{
-		projectName: 'Projects Status Management',
-		link: 'https://ibrahimhiarea.github.io/Global-Share/#/home',
-		sourceCode: 'https://github.com/IbrahimHiarea/Global-Share',
-		description: 'The Global Share ERP System is an innovative web-based application designed to streamline volunteer recruitment, management, and reward systems. It incorporates task management, recruitment, and gamification features to enhance employee engagement, promote effective communication, and drive organizational excellence.',
-		image: PR1
-	},
-	{
-		projectName: `eMedic`,
-		link: 'https://ibrahimhiarea.github.io/Ataa-Dashboard/',
-		sourceCode: 'https://github.com/IbrahimHiarea/Ataa-Dashboard',
-		description: "Ataa is a web application built with React for managing and organizing the operations of a charity organization. The application includes a landing page that provides an overview of the charity's mission and goals. Staff members of the charity can log in to the main dashboard, which allows them to manage and control the projects, employees, and beneficiaries associated with the charity. Additionally, there is a section dedicated to viewing the total budget of the charity, as well as the budget allocated to each individual project.",
-		image: PR1
-	},
-	{
-		projectName: 'CA Shared Kernel',
-		link: 'https://ibrahimhiarea.github.io/Soko-Number/',
-		sourceCode: 'https://github.com/IbrahimHiarea/Soko-Number',
-		description: 'Soko Number is a puzzle game built with the React framework. The game consists of 6 challenging levels that will test your problem-solving skills. Each level presents a grid-based puzzle where you need to move numbered tiles to their designated positions.',
-		image: PR1
-	},
-	{
-		projectName: 'Sales Dashboard',
-		link: 'https://ibrahimhiarea.github.io/Leon/',
-		sourceCode: 'https://github.com/IbrahimHiarea/Leon',
-		description: 'Leon is a modern and responsive HTML and CSS design template that provides a sleek and visually appealing foundation for building stunning websites. With its clean and elegant design, Leon focuses on simplicity and exceptional user experience.',
-		image: PR1
-	},
-	{
-		projectName: 'Portfolio',
-		link: 'https://ibrahimhiarea.github.io/Kasper/',
-		sourceCode: 'https://ibrahimhiarea.github.io/Kasper/',
-		description: 'Kaspar is a modern and responsive HTML and CSS design template that provides a sleek and visually appealing foundation for building stunning websites. With its clean and elegant design, Kaspar focuses on simplicity and exceptional user experience.',
-		image: PR1
-	},
-	{
-		projectName: 'PSM UI',
-		link: 'https://ibrahimhiarea.github.io/Elzero/',
-		sourceCode: 'https://github.com/IbrahimHiarea/Elzero',
-		description: 'Elzero is a stylish and interactive HTML, CSS, and JavaScript design template that offers a modern and engaging user experience. With its clean code structure and well-designed components, Elzero provides a solid foundation for building dynamic and visually appealing web applications.',
-		image:PR1
-	},
+export const ProjectsList: ProtfolioItem[] = [
+    {
+        projectName: 'Event Detection from Arabic Social Media',
+        image: EventDetection,
+        description: 'Document-pivot event detection pipeline tailored for Arabic Twitter, Telegram, and news streams. Includes tweet filtering (SVM, KNN), incremental clustering with mBERT embeddings + GNNs, LLM-based summarization, and geospatial location inference with CaMel NER.',
+        sourceCode: 'https://github.com/HasanKhaddour/SAS.DetectionService',
+        link: '#'
+    },
+    {
+        projectName: 'Situational Awareness System (SAS)',
+        image: SAS,
+        description: 'A scalable microservices-based platform to monitor daily and historical events on an interactive map. Includes scraping, event detection, event management, location inference, summarization, and identity management with a secure Angular frontend.',
+        sourceCode: 'https://github.com/HasanKhaddour/SAS-System',
+        link: '#'
+    },
+    {
+        projectName: 'Sentiment Classification of Mental Health Discourse',
+        image: MentalHealth,
+        description: 'Machine learning pipeline on a 50K dataset of mental health discourse. Two-stage classification: (1) Normal vs Non-Normal discourse, (2) multi-class sentiment classification. Benchmarked traditional ML vs BERT embeddings for domain-specific insights.',
+        sourceCode: 'https://github.com/HasanKhaddour/MentalHealth-SentimentClassification',
+        link: '#'
+    },
+    {
+        projectName: 'Projects Management Web App – HIAST',
+        image: HIASTProjects,
+        description: 'Full-stack web application for project planning, monitoring, and reporting at HIAST. Implemented with ASP.NET Core + Clean Architecture on the backend and Angular for the frontend, replacing manual paper-based workflows.',
+        sourceCode: 'https://github.com/HasanKhaddour/HIASProjectsManagement',
+        link: '#'
+    },
+    {
+        projectName: 'eMedic – Prescriptions & Medicines Management',
+        image: eMedic,
+        description: 'Web system to digitize prescriptions and manage pharmacy inventory. Developed with ASP.NET Core, SQL Server, and Clean Architecture principles.',
+        sourceCode: 'https://github.com/HasanKhaddour/eMedic',
+        link: '#'
+    },
+      {
+        projectName: 'MediatRaptor',
+        image: MediatRaptor,
+        description: '🦖 A lightweight and extensible implementation of the Mediator pattern with built-in CQRS support. Features pipeline behaviors (logging, validation, caching), no external dependencies, and a clean IMediator abstraction. Designed as a modern, minimal alternative to heavier mediator libraries like MediatR.',
+        sourceCode: 'https://github.com/HasanKhadd0ur/MediatRaptor',
+        link: '#'
+    },
+    {
+        projectName: 'Shared Kernel for Clean Architecture & DDD',
+        image: CASolution,
+        description: 'Reusable shared kernel .Net package for Clean Architecture and DDD systems. Provides base abstractions, error handling, and event management for scalable enterprise solutions.',
+        sourceCode: 'https://github.com/HasanKhaddour/CASolution.SharedKernel',
+        link: '#'
+    },
+    {
+        projectName: 'UniFile',
+        image: UniFile,
+        description: 'A modular file management library supporting CRUD operations across local and cloud storage providers. Designed for extensibility and easy plug-in integrations.',
+        sourceCode: 'https://github.com/HasanKhaddour/UniFile',
+        link: '#'
+    }
 ]
