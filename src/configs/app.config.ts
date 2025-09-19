@@ -17,7 +17,7 @@ export const  DefaultConfig : AppConfig={
     fullName:"Hasan Khaddour",
     logo:'favicon.png',
     about:`
-        Software Engineer with two year of experience in AI, Web
+        Software ad AI Engineer with two year of experience in AI, Web
         Development and Software Architecture. Passionate about
         designing and developing scalable software solutions while
         leveraging the latest advancements in AI. Skilled in both backend

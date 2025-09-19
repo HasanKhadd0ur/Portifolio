@@ -16,7 +16,7 @@ function Home(){
         <div id='Home' className={style.home}>
             <div className={style["home-content"]}>
                 <h1>HEY, I'M {config.fullName}</h1>
-                <p>A Software Engineer with two year of experience in AI, Web Development and Software Architecture.</p>
+                <p>A Software and AI Engineer with two year of experience in AI, Web Development and Software Architecture.</p>
                 <a
                     href={cv}
                     download="cv-PDF-document"

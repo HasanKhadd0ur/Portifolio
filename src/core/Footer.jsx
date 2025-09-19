@@ -17,7 +17,7 @@ function Footer(){
                 <div className={style["footer-info"]}>
                     <div>
                         <h3>{config.fullName}</h3>
-                        <p>A Software Engineer with experience in AI, Web Development.</p>
+                        <p>A Software and AI Engineer with experience in AI, Web Development.</p>
                     </div>
                     <div className={style.social}>
                         <h3>Social</h3>

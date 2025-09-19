@@ -1,0 +1,53 @@
+.experience {
+  padding: 80px 20px;
+  background-color: #f9f9f9;
+}
+
+.title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: var(--primary-main);
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.timeline {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.item {
+  background: white;
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease-in-out;
+}
+
+.item:hover {
+  transform: translateY(-5px);
+}
+
+.item h3 {
+  margin: 0;
+  font-size: 20px;
+  color: var(--primary-main);
+}
+
+.item span {
+  font-size: 14px;
+  color: #777;
+  display: block;
+  margin: 5px 0 10px;
+}
+
+.item p {
+  margin: 0;
+  color: #444;
+  line-height: 1.6;
+}

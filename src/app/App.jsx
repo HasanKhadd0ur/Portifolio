@@ -5,7 +5,7 @@ import Footer from '../core/Footer'
 import Contact from '../core/Contact'
 import Home from '../core/Home'
 import Projects from '../core/Projects.';
-
+import Experience from '../core/Experience'
 // import style
 import style from './App.module.css';
 
@@ -15,6 +15,7 @@ function App() {
 		<div className={style.app}>
 			<NavBar/>
 			<Home/>
+			<Experience/>  
 			<About/>
 			<Projects/>
 			<Contact/>
